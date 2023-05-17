@@ -5,11 +5,31 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "testes",
-      "cwd": "testes",
+      "name": "navegacao",
+      "cwd": "navegacao",
       "request": "launch",
       "type": "dart",
       "program": "lib/main.dart"
+    },
+    {
+      "name": "navegacao (profile mode)",
+      "cwd": "navegacao",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "navegacao (release mode)",
+      "cwd": "navegacao",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "testes",
+      "cwd": "testes",
+      "request": "launch",
+      "type": "dart"
     },
     {
       "name": "testes (profile mode)",
